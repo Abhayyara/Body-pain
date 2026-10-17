@@ -22,7 +22,7 @@ jobs:
           cache: true
 
       - name: Generate Android scaffolding (keeps lib/, test/, pubspec.yaml)
-        run: ./scripts/bootstrap.sh
+        run: bash ./scripts/bootstrap.sh
 
       - run: flutter pub get
 
